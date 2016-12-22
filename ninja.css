@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#container{
+    position: relative;
+}
+
+#header{
+    height: 150px;
+    width: 100%;
+    background-color: gray;
+    border: 5px solid black;
+    text-align: center;
+    font-size: 20px;
+}
+/*Content area of page*/
+ul li{
+    display: inline-block;
+}
+img.resize{
+    width: 75px;
+    height: 75px;
+}
+img{
+    border: 5px solid black;
+}
+#restore{
+    align-items: right;
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    position: fixed;
+}
+#master{
+    position: absolute;
+    height: 50px;
+    width: 100%;
+}
+#footer{
+    height: 50px;
+    width: 100%;
+    background-color: gray;
+    border: 5px solid black;
+
+}

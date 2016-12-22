@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <link rel="stylesheet" type="text/css" href="ninja.css">
+        <script src= 'http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.js'></script>
+        <script type="text/javascript">
+            $(document).ready(function(){
+                $("img").click(function(){
+                    var test = $(this).attr('id')
+                        $(this).hide();
+                    });
+
+                 $('#restore').click(function() {
+                    $("img").show('slow')
+                });
+                    // $("img").show('slow')
+                })
+
+        </script>
+        <title>Disappearing Ninja</title>
+    </head>
+    <body>
+        <div id="container">
+            <div id="header">Jquery Qualifying Exam- Assignment 1 </div>
+            <br>
+            <br>
+            <div id="content">
+                <div id="main1" class="pictures1">
+                    <ul>
+                        <li>
+                            <img id="1" src="https://s-media-cache-ak0.pinimg.com/236x/d6/f2/89/d6f289d1839cfa4b8764441e6ba40f3d.jpg" alt="ninja">
+                        </li>
+                        <li>
+                            <img id="2" src="https://s-media-cache-ak0.pinimg.com/236x/d6/f2/89/d6f289d1839cfa4b8764441e6ba40f3d.jpg" alt="ninja">
+                        </li>
+                        <li>
+                            <img id="3" src="https://s-media-cache-ak0.pinimg.com/236x/d6/f2/89/d6f289d1839cfa4b8764441e6ba40f3d.jpg" alt="ninja">
+                        </li>
+                        <li>
+                            <img id="4" src="https://s-media-cache-ak0.pinimg.com/236x/d6/f2/89/d6f289d1839cfa4b8764441e6ba40f3d.jpg" alt="ninja">
+                        </li>
+
+                        <button type="button" id="restore">Restore</button>
+                    </ul>
+
+                </div>
+                    <div id="main2" class="pictures2">
+                        <ul>
+                            <li><img id="5" src="https://s-media-cache-ak0.pinimg.com/236x/d6/f2/89/d6f289d1839cfa4b8764441e6ba40f3d.jpg" alt="ninja">
+                            </li>
+                            <li>
+                                <img id="6" src="https://s-media-cache-ak0.pinimg.com/236x/d6/f2/89/d6f289d1839cfa4b8764441e6ba40f3d.jpg" alt="ninja">
+                            </li>
+                            <li>
+                                <img id="7" src="https://s-media-cache-ak0.pinimg.com/236x/d6/f2/89/d6f289d1839cfa4b8764441e6ba40f3d.jpg" alt="ninja">
+                            </li>
+                            <li>
+                                <img id="8" src="https://s-media-cache-ak0.pinimg.com/236x/d6/f2/89/d6f289d1839cfa4b8764441e6ba40f3d.jpg" alt="ninja">
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div id="master">
+                    <div id="footer">
+                    </div>
+                </div>
+        </div>
+    </body>
+</html>
